@@ -128,4 +128,6 @@ def game_hash
 end
 
 # Write code here
-
+def num_points_scored(player_name)
+  game_hash[:home][:players][:player_name][:score]
+end 
