@@ -141,3 +141,7 @@ end
 def shoe_size (player_name)
   players[:player_name][:shoe]
 end 
+
+def team_colors(team_name)
+  team(team_name)[:colors]
+end 
